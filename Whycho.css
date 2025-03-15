@@ -1,0 +1,132 @@
+.choose-us img{
+  height: 600px;
+  width: 100%;
+  background-color: blue;
+  
+}
+
+.choose-us .col-6{
+    padding: 0;
+
+
+}
+
+.choose-us .col-6:last-child{
+   
+    color:black;
+    padding-top: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQRH8r4ld-o8DyQrnVHPR3LvPQpRs359vN4LBVxNwUUslEP2ZuSSGKygy3gGV9SqFhDWI&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+   
+}
+
+
+.choose-us .h1{
+    margin: 30px;
+}
+
+
+.choose-us p{
+    margin: 40px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.choose-us .read{
+    display: inline-block;
+    padding: 8px 20px ;
+    margin: 0 0 0 40px;
+    background-color: whitesmoke;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* margin-bottom: 5px; */
+
+}
+
+.choose-us{
+   /* margin: 0;
+   padding: 0; */
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+   /* margin-top: -200px; */
+   margin-top: -1000px;
+}
+
+
+/* .bu{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+    border: 1px solid #3498db;
+    color: cyan;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    background: transparent;
+    text-decoration: none;
+   
+    margin-left: 500px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+bu:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan,
+
+} */
+
+.bu {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid cyan;
+    color:cyan;
+    background-color: transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-top: 40px;
+  }
+  
+  .bu:hover {
+    color: #fff;
+    background-color: cyan;
+  }
+  
+  .bu::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    background: linear-gradient(45deg, #4CAF50, #FFC107, #2196F3, #9C27B0);
+    border-radius: 25px;
+  }
+  
+  .bu::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    z-index: -1;
+    background: linear-gradient(45deg, #9C27B0, #2196F3, #FFC107, #4CAF50);
+    border-radius: 25px;
+  }
+  
+  .bu:hover::before,
+  .bu:hover::after {
+    opacity: 0;
+  }

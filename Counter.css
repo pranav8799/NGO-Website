@@ -1,0 +1,35 @@
+.box{
+   margin-top: 10px;
+    width: '100%';
+   
+   
+
+    margin-top: '0px';
+    margin-bottom:'300px';
+    padding-top: 20px;
+   
+    
+    display: flex;
+    justify-content:space-around;
+    color:#053336;
+}
+
+.boxx{
+
+     width: '100%';
+    
+     background: linear-gradient(
+         to right, #833ab4, #fd1d1d,#fcb045
+     );
+     background-size: 100% 95%;
+     animation: background1 ease-in-out infinite;
+ 
+     margin-top: '0px';
+     margin-bottom:'300px';
+     padding-top: 20px;
+    
+     
+     display: flex;
+     justify-content:space-around;
+     color: white;
+ }

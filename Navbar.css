@@ -1,0 +1,58 @@
+.innerWidth{
+    width:97%;
+}
+
+.h-wrapper{
+     /* background-color:rgb(14, 13, 13);   */
+    /* backdrop-filter:'blur(10px)'; */
+    color:blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:'transparent';
+    backdrop-filter: 'blur(10px)';
+    position:static;
+    background: rgba(0,0, 0, 0);
+}
+
+.ground{
+    /* background: linear-gradient(
+        to right, #833ab4, #fd1d1d,#fcb045
+    ); 
+     background-size: 100% 95%;
+    animation: background1 ease-in-out infinite; */
+     background: transparent;
+     background-color: rgba(0,0, 0, 0.3);
+     background-color:#053336; 
+     
+
+}
+
+
+
+
+
+.h-container{
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+.h-menu{
+
+    gap: 3rem;
+}
+.h-menu>*:hover{
+    cursor: pointer;
+    background-color: #D49A3A;
+}
+
+
+.bg-blur{
+    background:'transparent';
+    backdrop-filter: 'blur(10px)';
+}
+
+ .nav{
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+} 
